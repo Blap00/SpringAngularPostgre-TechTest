@@ -1,4 +1,4 @@
-package com.fabianpalma.demo.models;
+package com.fabianpalma.techtest.models;
 
 import java.util.Date;
 

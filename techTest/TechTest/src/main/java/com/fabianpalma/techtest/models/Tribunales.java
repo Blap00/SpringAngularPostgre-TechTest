@@ -1,23 +1,18 @@
-package com.fabianpalma.demo.models;
+package com.fabianpalma.techtest.models;
 
 import java.util.Date;
-import java.util.List;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="tribunales", schema="tech_test")
+@Table(name="tribunales")
 public class Tribunales {
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;  //PK
 	
 	@Column(nullable = false, length = 50)
@@ -25,9 +20,6 @@ public class Tribunales {
 	
 	@Column(nullable = false)
 	private boolean activo;
-	
-	@OneToMany(mappedBy = "tribunales")  
-    private List<Escritos> escritos;
 	
 	@Column(updatable = false, nullable = false)
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
@@ -89,6 +81,4 @@ public class Tribunales {
 	public void setUpdatedAt(Date updatedAt) {
 		this.updatedAt = updatedAt;
 	}
-	
-	
 }

@@ -1,7 +1,6 @@
 package com.fabianpalma.demo.models;
 
 import java.util.Date;
-import java.util.List;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
@@ -10,24 +9,20 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "tipos")
+@Table(name="tipos")
 public class Tipos {
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;  //PK
+	private Long id;  //PK
 	
 	@Column(nullable = false, length = 50)
 	private String nom_tipo;
 	
 	@Column(nullable = false)
 	private boolean activo;
-	
-	@OneToMany(mappedBy = "tipos") 
-    private List<Escritos> escritos;  
+
 	
 	@Column(updatable = false, nullable = false)
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
@@ -37,12 +32,22 @@ public class Tipos {
 	
 	public Tipos() {
 	}
+	
 
-	public long getId() {
+	public Tipos(Long id, String nom_tipo, boolean activo, Date createdAt, Date updatedAt) {
+		this.id = id;
+		this.nom_tipo = nom_tipo;
+		this.activo = activo;
+		this.createdAt = createdAt;
+		this.updatedAt = updatedAt;
+	}
+
+
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 

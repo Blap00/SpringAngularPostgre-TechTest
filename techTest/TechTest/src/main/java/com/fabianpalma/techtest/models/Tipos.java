@@ -1,7 +1,6 @@
-package com.fabianpalma.demo.models;
+package com.fabianpalma.techtest.models;
 
 import java.util.Date;
-import java.util.List;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
@@ -10,24 +9,20 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="tribunales", schema="tech_test")
-public class Tribunales {
+@Table(name="tipos")
+public class Tipos {
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;  //PK
+	private Long id;  //PK
 	
 	@Column(nullable = false, length = 50)
-	private String nom_tribunal;
+	private String nom_tipo;
 	
 	@Column(nullable = false)
 	private boolean activo;
-	
-	@OneToMany(mappedBy = "tribunales")  
-    private List<Escritos> escritos;
+
 	
 	@Column(updatable = false, nullable = false)
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
@@ -35,60 +30,56 @@ public class Tribunales {
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date updatedAt;
 	
+	public Tipos() {
+	}
 	
-	public Tribunales() {
-		
+
+	public Tipos(Long id, String nom_tipo, boolean activo, Date createdAt, Date updatedAt) {
+		this.id = id;
+		this.nom_tipo = nom_tipo;
+		this.activo = activo;
+		this.createdAt = createdAt;
+		this.updatedAt = updatedAt;
 	}
 
 
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 
-
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
-
-	public String getNom_tribunal() {
-		return nom_tribunal;
+	public String getNom_tipo() {
+		return nom_tipo;
 	}
 
-
-	public void setNom_tribunal(String nom_tribunal) {
-		this.nom_tribunal = nom_tribunal;
+	public void setNom_tipo(String nom_tipo) {
+		this.nom_tipo = nom_tipo;
 	}
-
 
 	public boolean isActivo() {
 		return activo;
 	}
 
-
 	public void setActivo(boolean activo) {
 		this.activo = activo;
 	}
-
 
 	public Date getCreatedAt() {
 		return createdAt;
 	}
 
-
 	public void setCreatedAt(Date createdAt) {
 		this.createdAt = createdAt;
 	}
-
 
 	public Date getUpdatedAt() {
 		return updatedAt;
 	}
 
-
 	public void setUpdatedAt(Date updatedAt) {
 		this.updatedAt = updatedAt;
 	}
-	
-	
 }

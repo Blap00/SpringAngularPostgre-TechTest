@@ -26,9 +26,6 @@ public class Servicios {
 	@Column(nullable = false)
 	private boolean activo;
 	
-	@OneToMany(mappedBy = "servicios")  
-    private List<Escritos> escritos;
-	
 	@Column(updatable = false, nullable = false)
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date createdAt;
