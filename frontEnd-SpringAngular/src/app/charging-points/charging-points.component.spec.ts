@@ -8,10 +8,10 @@ describe('ChargingPointsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ChargingPointsComponent ]
+      imports: [ChargingPointsComponent]
     })
     .compileComponents();
-
+    
     fixture = TestBed.createComponent(ChargingPointsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

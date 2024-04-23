@@ -1,0 +1,24 @@
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Estado</th>
+            <th>Operador</th>
+            <th>Nro Conexiones</th>
+            <th>Coordenadas</th>
+            <th>País</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (points of chargingPoints; track points.ID) {
+        <tr>
+            <td>{{ points.ID }}</td>
+            <td>{{ points.StatusType?.Title || 'Valor Nulo' }}</td>
+            <td>{{ points.OperatorInfo?.Title || 'Valor Nulo' }}</td>
+            <td>{{ points.Connections ? points.Connections.length : 'Valor Nulo' }}</td>
+            <td>{{ points.AddressInfo.Latitude }}, {{ points.AddressInfo.Longitude }}</td>
+            <td>{{ points.AddressInfo.Country?.Title || 'Valor Nulo' }}</td>
+        </tr>
+        }
+    </tbody>
+</table>
