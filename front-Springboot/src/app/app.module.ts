@@ -3,20 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-import { FormsModule, ReactiveFormsModule } from '@angular/forms' 
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ChargingPointsComponent } from './charging-points/charging-points.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChargingPointsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    FormsModule,
-    ReactiveFormsModule,
-    BrowserAnimationsModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

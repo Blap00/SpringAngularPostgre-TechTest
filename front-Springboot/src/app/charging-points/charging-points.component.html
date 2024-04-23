@@ -1,0 +1,23 @@
+<table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Estado</th>
+        <th>Operador</th>
+        <th>Nro Conexiones</th>
+        <th>Coordenadas</th>
+        <th>País</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let point of chargingPoints">
+        <td>{{ point.ID }}</td>
+        <td>{{ point.StatusType.Title }}</td>
+        <td>{{ point.OperatorInfo.Title }}</td>
+        <td>{{ point.Connections }}</td>
+        <td>{{ point.AddressInfo.Latitude }}, {{ point.AddressInfo.Longitude }}</td>
+        <td>{{ point.AddressInfo.Country.Title }}</td>
+      </tr>
+    </tbody>
+  </table>
+  

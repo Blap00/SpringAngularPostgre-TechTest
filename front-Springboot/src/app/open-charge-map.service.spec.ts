@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { EstadosService } from './estados.service';
+import { OpenChargeMapService } from './open-charge-map.service';
 
-describe('EstadosService', () => {
-  let service: EstadosService;
+describe('OpenChargeMapService', () => {
+  let service: OpenChargeMapService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(EstadosService);
+    service = TestBed.inject(OpenChargeMapService);
   });
 
   it('should be created', () => {
