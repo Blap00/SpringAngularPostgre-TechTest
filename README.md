@@ -1,6 +1,6 @@
 # Examen Técnico
 # # Front End
-## Actualizar a la ultima versión de Angular
+# # # Actualizar a la ultima versión de Angular
 Realice los distintos metodos en la pagina de <a>Angular</a>
 
 La version de los componentes al momento de ejecutar el examen tecnico son de;
@@ -46,3 +46,12 @@ La version de los componentes al momento de ejecutar el examen tecnico son de;
 </tr>
 </tbody>
 </table>
+
+# # # Ejecutar codigos
+Chequear versionado;
+<code>ng v</code>
+Ejecutar FrontEnd
+<code>
+cd .\frontEnd-SpringAngular\
+ng serve
+</code>
