@@ -63,6 +63,7 @@ Para asegurar de que el backend funcione correctamente recuerda tener instalada 
 # Creación de un proyecto SPRING
 Creamos un proyecto SpringBoot Maven con el que trabajaremos, añadimos las dependencias necesarias del archivo (POM.XML)
 <code>
+{
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -94,6 +95,7 @@ Creamos un proyecto SpringBoot Maven con el que trabajaremos, añadimos las depe
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+}
 </code>
 En el codigo ya estan las dependencias que vamos a utilizar, en el archivo 'application.properties' se configura la conexion a la base de datos
 este archivo se encuentra en la ruta;
