@@ -48,10 +48,12 @@ La version de los componentes al momento de ejecutar el examen tecnico son de;
 </table>
 
 # # # Ejecutar codigos
-Chequear versionado;
-<code>ng v</code>
-Ejecutar FrontEnd
+Chequear versionado;<br>
+<code>ng v</code><br>
+Ejecutar FrontEnd<br>
 <code>
 cd .\frontEnd-SpringAngular\
 ng serve
 </code>
+
+# # Backend
