@@ -47,6 +47,7 @@ public class Charge_Points {
 	
 	// Constructors
     public Charge_Points() {
+    	//VOID
     }
 
     public Charge_Points(String status, String operator, Integer connections, String latitude, String longitude, String country, Integer power) {
