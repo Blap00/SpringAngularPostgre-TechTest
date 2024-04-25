@@ -1,0 +1,12 @@
+
+‚	java:S116"WRename this field "nom_tribunal" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÁ·õHáRMINORZ
+CODE_SMELL
+°
+java:S1186'"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ˆ³ðŸHâRCRITICALZ
+CODE_SMELL
+y	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æýÖ÷HäRMINORZ
+CODE_SMELL
+|	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ§„¹HàRMINORZ
+CODE_SMELL
+y	java:S100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ§„¹HåRMINORZ
+CODE_SMELL

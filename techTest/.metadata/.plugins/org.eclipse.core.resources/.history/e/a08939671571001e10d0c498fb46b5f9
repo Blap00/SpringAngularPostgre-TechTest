@@ -1,0 +1,5 @@
+package com.fabianpalma.techtest.rest;
+
+public class EscritosRestController {
+
+}

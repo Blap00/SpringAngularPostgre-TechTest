@@ -1,0 +1,16 @@
+package com.fabianpalma.techtest.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.fabianpalma.techtest.repositories.EscritosRepository;
+
+@Service
+public class EscritosService {
+	@Autowired
+	private final EscritosRepository escritoRepository;
+	
+	public EscritosService(EscritosRepository escritoRepository) {
+		this.escritoRepository = escritoRepository;
+	}
+}

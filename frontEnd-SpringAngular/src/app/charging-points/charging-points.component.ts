@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { OpenChargeMapService } from '../open-charge-map.service';
 
-
 @Component({
   selector: 'app-charging-points',
   templateUrl: './charging-points.component.html',
@@ -9,8 +8,6 @@ import { OpenChargeMapService } from '../open-charge-map.service';
 })
 export class ChargingPointsComponent implements OnInit {
   chargingPoints: any[] = [];
-  index: any
-  item: any
 
   constructor(private openChargeMapService: OpenChargeMapService) { }
 
@@ -23,8 +20,5 @@ export class ChargingPointsComponent implements OnInit {
         console.error('Error fetching charging points:', error);
       }
     );
-  }
-  trackByFn(index: any, item: { ID: any; }) {
-    return item.ID; // or any unique identifier property
   }
 }

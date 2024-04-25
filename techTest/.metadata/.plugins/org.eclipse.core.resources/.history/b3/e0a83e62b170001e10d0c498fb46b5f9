@@ -1,0 +1,9 @@
+package com.fabianpalma.techtest.services;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class EscritoriosService {
+	@Autowired
+	private final Escrito
+}

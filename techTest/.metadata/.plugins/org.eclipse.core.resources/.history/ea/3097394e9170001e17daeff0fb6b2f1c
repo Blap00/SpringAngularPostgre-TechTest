@@ -1,0 +1,11 @@
+# Crear la base de datos si no existe y auto-reconectar
+spring.datasource.url=jdbc:postgresql://localhost:5432/postgres?current_schema=techTest?createDatabaseIfNotExist=true&autoReconnect=true
+spring.datasource.username=postgres
+spring.datasource.password=Blap1504
+
+# Configuración de JPA
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+# Configuración de la ubicación de las vistas (si es necesario)
+spring.mvc.view.prefix=/WEB-INF/Views/

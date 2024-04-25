@@ -1,0 +1,41 @@
+
+ˆ	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö•åùÿÿÿÿ8¡É€³µ1HÛRMINORZ
+CODE_SMELL
+ˆ	java:S116/"VRename this field "fec_ingreso" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÒèø8¡É€³µ1HßRMINORZ
+CODE_SMELL
+€	java:S100u"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÊ˜Â8¡É€³µ1HæRMINORZ
+CODE_SMELL
+	java:S100“"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óñÂí8¡É€³µ1HêRMINORZ
+CODE_SMELL
+€	java:S100r"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¼¿8¡É€³µ1HåRMINORZ
+CODE_SMELL
+	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸”ñÏ8¡É€³µ1HéRMINORZ
+CODE_SMELL
+†	java:S1162"TRename this field "nro_causa" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Õ»ú8¡É€³µ1HàRMINORZ
+CODE_SMELL
+	java:S100Ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û‘ú8¡É€³µ1HìRMINORZ
+CODE_SMELL
+ˆ	java:S116"VRename this field "nro_escrito" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ğ®õ8¡É€³µ1HŞRMINORZ
+CODE_SMELL
+…	java:S100e"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛŠ¢‡ÿÿÿÿÿ8¡É€³µ1HãRMINORZ
+CODE_SMELL
+†	java:S100Š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷½¶şÿÿÿÿ8¡É€³µ1HçRMINORZ
+CODE_SMELL
+	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ£…×8¡É€³µ1HèRMINORZ
+CODE_SMELL
+†	java:S100œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü®Íœùÿÿÿÿ8¡É€³µ1HëRMINORZ
+CODE_SMELL
+ˆ	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡¿ƒÊşÿÿÿÿ8¡É€³µ1HÜRMINORZ
+CODE_SMELL
+…	java:S100h"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×„Ö†ıÿÿÿÿ8¡É€³µ1HäRMINORZ
+CODE_SMELL
+ˆ	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡¿ƒÊşÿÿÿÿ8¡É€³µ1HİRMINORZ
+CODE_SMELL
+ˆ	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×„Ö†ıÿÿÿÿ8ß¯¬Òµ1HäRMINORZ
+CODE_SMELL
+„	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ£…×8ß¯¬Òµ1HåRMINORZ
+CODE_SMELL
+„	java:S117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óñÂí8ß¯¬Òµ1HæRMINORZ
+CODE_SMELL
+y	java:S107P"BConstructor has 13 parameters, which is greater than 7 authorized.(ö•åùÿÿÿÿ8ß¯¬Òµ1HçRMAJORZ
+CODE_SMELL

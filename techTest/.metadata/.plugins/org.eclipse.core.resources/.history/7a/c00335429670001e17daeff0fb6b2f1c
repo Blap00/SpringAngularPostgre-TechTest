@@ -1,0 +1,6 @@
+package com.fabianpalma.demo.controllers;
+@RestController
+@RequestMapping
+public class TiposController {
+
+}

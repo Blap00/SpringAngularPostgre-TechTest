@@ -1,0 +1,5 @@
+package com.fabianpalma.demo.repositories;
+
+public class TiposRepository {
+
+}

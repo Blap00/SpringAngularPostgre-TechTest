@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\56941\Dropbox\PC\Documents\GitHub\SpringAngularPostgre-TechTest\techTest\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3435648363.index
+78018532.index

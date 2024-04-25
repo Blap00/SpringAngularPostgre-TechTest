@@ -10,14 +10,14 @@
         </tr>
     </thead>
     <tbody>
-        @for (points of chargingPoints; track points.ID) {
+        @for (points of chargingPoints; track points.id) {
         <tr>
-            <td>{{ points.ID }}</td>
-            <td>{{ points.StatusType?.Title || 'Valor Nulo' }}</td>
-            <td>{{ points.OperatorInfo?.Title || 'Valor Nulo' }}</td>
-            <td>{{ points.Connections ? points.Connections.length : 'Valor Nulo' }}</td>
-            <td>{{ points.AddressInfo.Latitude }}, {{ points.AddressInfo.Longitude }}</td>
-            <td>{{ points.AddressInfo.Country?.Title || 'Valor Nulo' }}</td>
+            <td>{{ points.id }}</td>
+            <td>{{ points.status }}</td>
+            <td>{{ points.operator }}</td>
+            <td>{{ points.connections }}</td>
+            <td>{{ points.latitude }}, {{ points.longitude }}</td>
+            <td>{{ points.country }}</td>
         </tr>
         }
     </tbody>

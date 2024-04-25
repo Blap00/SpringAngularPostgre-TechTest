@@ -1,0 +1,10 @@
+spring.datasource.url=jdbc:postgresql://localhost:5432/postgres?createDatabaseIfNotExist=true&autoReconnect=true
+spring.datasource.username=postgres
+spring.datasource.password=Blap1504
+
+# JPA settings
+spring.jpa.hibernate.ddl-auto=create
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+# DATA
+spring.mvc.view.prefix=/WEB-INF/Views/

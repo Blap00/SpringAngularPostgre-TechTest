@@ -1,0 +1,25 @@
+package com.fabianpalma.demo.models;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "escritos")
+public class Escritos {
+	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+	private long id;
+	
+	private int nro_escrito;
+	
+	private int tipo_id;
+	
+	private int servicio_id;
+	
+	private int jurisdiccion;
+	
+	private int tribunal_id;
+}

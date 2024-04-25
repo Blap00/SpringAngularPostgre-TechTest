@@ -1,0 +1,36 @@
+
+y	java:S100z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ£…×HöRMINORZ
+CODE_SMELL
+y	java:S100}"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸”ñÏH÷RMINORZ
+CODE_SMELL
+	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×„Ö†ıÿÿÿÿHéRMINORZ
+CODE_SMELL
+y	java:S100b"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÊ˜ÂHôRMINORZ
+CODE_SMELL
+~	java:S100R"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛŠ¢‡ÿÿÿÿÿHñRMINORZ
+CODE_SMELL
+}	java:S117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óñÂíHëRMINORZ
+CODE_SMELL
+|	java:S117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ£…×HêRMINORZ
+CODE_SMELL
+	java:S1162"TRename this field "nro_causa" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Õ»úHîRMINORZ
+CODE_SMELL
+	java:S116"VRename this field "nro_escrito" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ğ®õHìRMINORZ
+CODE_SMELL
+~	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×„Ö†ıÿÿÿÿHòRMINORZ
+CODE_SMELL
+y	java:S100_"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¼¿HóRMINORZ
+CODE_SMELL
+z	java:S100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óñÂíHøRMINORZ
+CODE_SMELL
+	java:S100‰"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü®ÍœùÿÿÿÿHùRMINORZ
+CODE_SMELL
+	java:S116/"VRename this field "fec_ingreso" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÒèøHíRMINORZ
+CODE_SMELL
+~	java:S100w"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷½¶şÿÿÿÿHõRMINORZ
+CODE_SMELL
+µ
+java:S1186J"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡£à®ÿÿÿÿÿHïRCRITICALZ
+CODE_SMELL
+z	java:S100Œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û‘úHúRMINORZ
+CODE_SMELL

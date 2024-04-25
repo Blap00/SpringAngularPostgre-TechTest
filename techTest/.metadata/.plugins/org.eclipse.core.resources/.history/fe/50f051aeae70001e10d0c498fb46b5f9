@@ -1,0 +1,8 @@
+package com.fabianpalma.techtest.models;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Tribunales {
+
+}
