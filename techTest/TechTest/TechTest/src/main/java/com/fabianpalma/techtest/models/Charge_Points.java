@@ -1,10 +1,14 @@
 package com.fabianpalma.techtest.models;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
+@Entity
+@Table(name = "charge_points")
 public class Charge_Points {
 	//GENERATE ID From SPRING
 	@Id
@@ -43,6 +47,7 @@ public class Charge_Points {
 	
 	// Constructors
     public Charge_Points() {
+    	//VOID
     }
 
     public Charge_Points(String status, String operator, Integer connections, String latitude, String longitude, String country, Integer power) {
